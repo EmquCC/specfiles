@@ -9,7 +9,7 @@ URL: https://github.com/dbgate/dbgate
 
 Source0: https://github.com/dbgate/dbgate/archive/v%{version}.tar.gz
 
-BuildRequires: binutils, git, python2, gcc, gcc-c++, yarn, bsdtar, jq, zlib, xz
+BuildRequires: binutils, git, python2, gcc, gcc-c++, yarnpkg, bsdtar, jq, zlib, xz
 BuildRequires: nodejs, ca-certificates, xz, git-lfs
 
 %description
