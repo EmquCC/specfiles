@@ -9,9 +9,8 @@ URL: https://github.com/dbgate/dbgate
 
 Source0: https://github.com/dbgate/dbgate/archive/v%{version}.tar.gz
 
-BuildRequires: yarn
-BuildRequires: nodejs
-BuildRequires: electron
+BuildRequires: binutils, git, python2, gcc, gcc-c++, yarn, bsdtar, jq, zlib, xz
+BuildRequires: nodejs, ca-certificates, xz, git-lfs
 
 %description
 dbgate is a database management tool that allows you to connect to multiple databases, run queries, and manage your data.
@@ -31,7 +30,7 @@ cp -r app/dist/* %{buildroot}%{_bindir}
 %{_bindir}/*
 
 %changelog
-* Mon Jan 06 2023 - 5.2.1
+* Mon Jan 06 2023 Jan Prochazka <dunno@dunno.lol> 5.2.1
     FIXED: client_id param in OAuth
     ADDED: OAuth scope parameter
     FIXED: login page - password was not sent, when submitting by pressing ENTER
