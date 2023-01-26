@@ -10,7 +10,7 @@ URL: https://github.com/dbgate/dbgate
 Source0: https://github.com/dbgate/dbgate/archive/v%{version}.tar.gz
 
 BuildRequires: binutils, git, python2, gcc, gcc-c++, yarnpkg, bsdtar, jq, zlib, xz
-BuildRequires: nodejs, ca-certificates, xz, git-lfs
+BuildRequires: nodejs12, ca-certificates, xz, git-lfs
 
 %description
 dbgate is a database management tool that allows you to connect to multiple databases, run queries, and manage your data.
