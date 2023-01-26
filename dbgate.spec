@@ -31,8 +31,8 @@ cp -r app/dist/* %{buildroot}%{_bindir}
 
 %changelog
 * Mon Jan 06 2023 Jan Prochazka <dunno@dunno.lol> 5.2.1
-    FIXED: client_id param in OAuth
-    ADDED: OAuth scope parameter
-    FIXED: login page - password was not sent, when submitting by pressing ENTER
-    FIXED: Used permissions fix
-    FIXED: Export modal - fixed crash when selecting different database
+- FIXED: client_id param in OAuth
+- ADDED: OAuth scope parameter
+- FIXED: login page - password was not sent, when submitting by pressing ENTER
+- FIXED: Used permissions fix
+- FIXED: Export modal - fixed crash when selecting different database
