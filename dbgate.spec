@@ -30,7 +30,7 @@ cp -r app/dist/* %{buildroot}%{_bindir}
 %{_bindir}/*
 
 %changelog
-* Mon Jan 06 2023 Jan Prochazka <dunno@dunno.lol> 5.2.1
+* Fri Jan 06 2023 Jan Prochazka <dunno@dunno.lol> 5.2.1-1
 - FIXED: client_id param in OAuth
 - ADDED: OAuth scope parameter
 - FIXED: login page - password was not sent, when submitting by pressing ENTER
